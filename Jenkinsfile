@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('build-hari') {
+      steps {
+        echo 'Happy'
+      }
+    }
+
   }
 }
